@@ -2,7 +2,7 @@ import React, { FunctionComponent } from "react"
 import LinkButton from "../../atoms/LinkButton/LinkButton"
 import "./HeaderLinks.css"
 
-const TopButtons : FunctionComponent = () =>{
+const HeaderLinks : FunctionComponent = () =>{
     const result = (
         <div>
             <LinkButton linkTarget={""} style={"header-links"} message={"HOME"} />
@@ -14,4 +14,4 @@ const TopButtons : FunctionComponent = () =>{
     return result;
 };
 
-export default TopButtons;
+export default HeaderLinks;

@@ -3,6 +3,12 @@ a{
 }
 
 .header-links{
-    color: white;
     width: 25%;
+    background-color: maroon;
+    color: white;
+    padding: 10px;
+}
+
+.header-links:hover{
+    opacity: 0.6;
 }
