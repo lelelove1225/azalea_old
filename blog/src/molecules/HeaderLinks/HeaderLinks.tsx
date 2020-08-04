@@ -4,11 +4,11 @@ import "./HeaderLinks.css"
 
 const HeaderLinks : FunctionComponent = () =>{
     const result = (
-        <div>
-            <LinkButton linkTarget={""} style={"header-links"} message={"HOME"} />
-            <LinkButton linkTarget={""} style={"header-links"} message={"HOME"} />
-            <LinkButton linkTarget={""} style={"header-links"} message={"HOME"} />
-            <LinkButton linkTarget={""} style={"header-links"} message={"HOME"} />
+        <div className={"header_Links"}>
+            <LinkButton linkTarget={"/"} style={"header-link-button"} message={"HOME"} />
+            <LinkButton linkTarget={"/blog"} style={"header-link-button"} message={"HOME"} />
+            <LinkButton linkTarget={""} style={"header-link-button"} message={"HOME"} />
+            <LinkButton linkTarget={""} style={"header-link-button"} message={"HOME"} />
         </div>
     );
     return result;
