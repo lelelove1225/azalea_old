@@ -1,0 +1,7 @@
+FROM node:12
+
+LABEL maintainer="lelelove1225"
+LABEL version="0.1"
+LABEL description="シャルロット・エレミアのポートフォリオ用"
+
+
