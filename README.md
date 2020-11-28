@@ -12,7 +12,7 @@ Need:<br />
 
 ## Available Scripts
 
-In the project directory, you can run:
+In the react_app container, you can run:
 
 ### `npm start`
 
