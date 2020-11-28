@@ -6,9 +6,9 @@ Need docker-compose.
 Develop mode.
 ### `docker-compose up `
 Production Mode.
-Need:
-  First: need command `docker-compose run react_app`.
-  Second: In container, run `npm run build`.
+Need:<br />
+  First: need command `docker-compose run react_app`.<br />
+  Second: In container, run `npm run build`.<br />
 
 ## Available Scripts
 
