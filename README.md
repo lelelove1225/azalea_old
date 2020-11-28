@@ -1,4 +1,14 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and Docker-compose.
+
+## First
+Need docker-compose.
+### `docker-compose run react_app`
+Develop mode.
+### `docker-compose up `
+Production Mode.
+Need:
+  First: need command `docker-compose run react_app`.
+  Second: In container, run `npm run build`.
 
 ## Available Scripts
 
