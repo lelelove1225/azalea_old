@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  react_app:
+    container_name: react_app_dev
+    command: npm run start
+    tty: true
