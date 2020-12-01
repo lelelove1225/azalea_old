@@ -13,3 +13,7 @@
 .header-link-button:focus{
     outline: 0;
 }
+
+li{
+    width: 100%;
+}
