@@ -6,10 +6,10 @@ const HeaderLinks : FunctionComponent = () =>{
     const result = (
         <div>
             <ul>
-            <LinkButton linkTarget={"/"} style={"header-link-button"} message={"HOME"} />
-            <LinkButton linkTarget={"/blog"} style={"header-link-button"} message={"BLOG"} />
-            <LinkButton linkTarget={""} style={"header-link-button"} message={"HOME"} />
-            <LinkButton linkTarget={""} style={"header-link-button"} message={"HOME"} />
+                <li><LinkButton linkTarget={"/"} style={"header-link-button"} message={"HOME"} /></li>
+                <li><LinkButton linkTarget={"/blog"} style={"header-link-button"} message={"BLOG"} /></li>
+                <li><LinkButton linkTarget={""} style={"header-link-button"} message={"HOME"} /></li>
+                <li><LinkButton linkTarget={""} style={"header-link-button"} message={"HOME"} /></li>
             </ul>
         </div>
     );

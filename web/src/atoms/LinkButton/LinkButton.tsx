@@ -10,7 +10,7 @@ type Props = {
 
 const LinkButton : FunctionComponent<Props> = (Props) => {
     return (
-        <li><Link to={Props.linkTarget} ><button className={Props.style}>{Props.message}</button></Link></li>
+        <Link to={Props.linkTarget} ><button className={Props.style}>{Props.message}</button></Link>
     )
 };
 
