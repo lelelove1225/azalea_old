@@ -12,12 +12,14 @@
   "author": "lelelove1225",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.21.1",
     "cors": "^2.8.5",
     "dayjs": "^1.9.7",
     "express": "^4.17.1",
     "helmet": "^4.2.0"
   },
   "devDependencies": {
+    "@types/axios": "^0.14.0",
     "@types/cors": "^2.8.9",
     "@types/express": "^4.17.9",
     "@types/helmet": "^4.0.0",
