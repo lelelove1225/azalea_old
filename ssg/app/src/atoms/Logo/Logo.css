@@ -1,0 +1,15 @@
+.top{
+    padding-top: 1em;
+}
+.Home-Message-Image{
+    height: 50%;
+    width: 50%;
+    padding-top: 15vh;
+}
+
+.Home-Message-Image-Sub{
+    height: 30%;
+    width: 30%;
+    padding-top: 20vh;
+    vertical-align: text-top;
+}

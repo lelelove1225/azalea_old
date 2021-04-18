@@ -18,23 +18,18 @@ class BlogAxiosConfig extends AxiosConfig{
     }
 }
 
-export function getBlogAll() :string {
+export async function getBlogAll() {
     dotenv.config();
     const axiosConfig = new BlogAxiosConfig(process.env.X_API_KEY!, process.env.BLOG_API_ENDPOINT!);
-    let result :string = "";
-    axios.get(axiosConfig.url, {
-        headers:{
-            "X-API-KEY":axiosConfig.header
-        }
-    })
-    .then((res) => {
-        result = res.data.contents;
-        //console.log(result);
-    })
-    .catch((res) => {
-        //console.log(res);
-    });
-    return result;
+    //try{
+        const res = await axios.get(axiosConfig.url, {
+            headers:{
+                "X-API-KEY":axiosConfig.header
+            }
+        })
+        return res;
+    //}
+    
 }
 
 export function getBlog(id: string) :string {
@@ -56,5 +51,7 @@ export function getBlog(id: string) :string {
 }
 
 // 非同期を待ってないから何も出ない
-const res :string = getBlogAll();
-console.log(res);
+const res = getBlogAll();
+res.then((res)=>{
+    console.log(res);
+})

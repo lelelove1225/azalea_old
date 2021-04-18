@@ -1,0 +1,19 @@
+.header-link-button{
+    width: 25%;
+    background-color: maroon;
+    color: white;
+    padding: 10px;
+    border: none;
+}
+
+.header-link-button:hover{
+    opacity: 0.6;
+}
+
+.header-link-button:focus{
+    outline: 0;
+}
+
+li{
+    width: 100%;
+}

@@ -1,0 +1,8 @@
+.Header-logo{
+    background-color: maroon;
+    text-align: center;
+    width: 100%;
+}
+.Header-logo > a{
+    width: 100%;
+}
